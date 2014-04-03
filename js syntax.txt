@@ -1,4 +1,0 @@
-function funcName(var/val) {	
-}
-{ document.getElementById("idName").innerHTML = 'whatever' + var/val;
-}
