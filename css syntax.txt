@@ -1,5 +1,7 @@
 {
 	text-align:center,left,right,top,bottom
+	vertical-align:
+	horizontal-align:
 	
 	//smoother centering method (centering dictated by how many results, 	hence auto) not sure about width
 	*//
