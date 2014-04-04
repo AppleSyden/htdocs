@@ -14,6 +14,16 @@ body	{
 	border-radius:25px;
 }
 
+#bodyc	{
+	background:url("images/bodycover.png");
+	background-size:fit;
+}
+
+#bodyc p	{
+	color:white;
+	padding: 5px;
+}
+
 #navbar ul { 
 	margin: 0; 
 	padding: 5px; 
@@ -34,7 +44,7 @@ body	{
 	color: #fff; 
 	} 
  
-#navbar ul li a:hover { 
+#navbar ul li :hover { 
 	color: #000; 
 	background-color: #fff; 
 	} 
