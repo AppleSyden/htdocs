@@ -1,6 +1,13 @@
+html {
+	height:100%;
+}
+
 body	{
 	background:url("images/bg.jpg");
 	background-size:fit;
+	margin:0;
+	padding:0;
+	height:100%;
 }
 
 #hmp	{
@@ -17,11 +24,12 @@ body	{
 #bodyc	{
 	background:url("images/bodycover.png");
 	background-size:fit;
+	margin:125px;
 }
 
 #bodyc p	{
 	color:white;
-	padding: 5px;
+	padding: px;
 }
 
 #navbar ul { 
@@ -64,5 +72,115 @@ body	{
 
 #sPIC	{
 	text-align:center;
-	}
+}
 
+#wrapper	{
+	min-height:100%;
+	position:relative;
+}
+
+#header	{
+	padding:10px;
+	padding-bottom:80px;
+}
+
+#content	{
+	padding:10px;
+	padding-bottom:80px;
+}
+
+#footer	{
+	background:url("images/bodycover.png");
+	background-size:cover;
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+#footer ul	{
+	list-style-type: none;
+}
+
+#footer ul li {
+	display:inline;
+	list-style-type: none;
+}
+
+#about	{
+	text-decoration:none;
+	padding: .2em 1em; 
+	color:#52CC7A; 
+}
+
+#myGitHub	{
+	text-decoration:none;
+}
+
+#aboutp	{
+	background:url("images/bodycover.png");
+	width:75%;
+	height:25%;
+	margin:125px;
+	color:#ADAD85;
+	padding:5px;
+	border-radius:10px;
+	border:1.5px solid;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#workdates li	{
+	list-style-type:none;
+	display:inline;
+}
+
+#workdates li a	{
+	text-decoration:none;
+	color:#ADAD85;
+}
+
+#workdates {
+	background:url("images/bodycover.png");
+	width:10%;
+	height:25%;
+	margin:15px;
+	padding:15px;
+	border-radius:10px;
+	border:1.5px solid;
+	margin-left:auto;
+	margin-right:auto;
+	list-style-type:none;
+	text-align:center;
+}
+
+
+
+#aboutp a{
+	color:white
+}
+
+#thebody	{
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	vertical-align:text-top;
+	background:url("bodycover.png");
+	background-size:cover;
+	border:2px solid;
+	border-radius:25px;
+}
+
+#nextbutton	{
+	width:10%;
+	text-align:center;
+	background-color:#999966;
+	height: 10px;
+	border: 2px solid;
+	border-radius:50px;
+}
+
+#nextbutton a	{
+	text-decoration:none;
+}
