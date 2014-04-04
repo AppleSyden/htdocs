@@ -1,8 +1,17 @@
-#h4_1	{
+body	{
+	background:url("images/bg.jpg");
+	background-size:fit;
+}
+
+#hmp	{
 	margin-left:auto;
 	margin-right:auto;
 	width:70%;
 	vertical-align:text-top;
+	background-color:white;
+	background-size:cover;
+	border:2px solid;
+	border-radius:25px;
 }
 
 #navbar ul { 
@@ -10,7 +19,9 @@
 	padding: 5px; 
 	list-style-type: none; 
 	text-align: center; 
-	background-color: #000; 
+	background-image:url("images/navbanner.png"); 
+	background-size:cover;
+	
 	} 
  
 #navbar ul li {  
@@ -21,7 +32,6 @@
 	text-decoration: none; 
 	padding: .2em 1em; 
 	color: #fff; 
-	background-color: #000; 
 	} 
  
 #navbar ul li a:hover { 
@@ -39,9 +49,10 @@
 
 .sp {
 	text-align:center;
+	font-weight:900;
 }
 
 #sPIC	{
 	text-align:center;
-}
-	
+	}
+
